@@ -36,7 +36,7 @@ class DrawingView(context: Context, attrs: AttributeSet): View(context, attrs) {
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
-
+        //Jai ho
         mCanvasBitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888)
         canvas = Canvas(mCanvasBitmap!!)
     }
