@@ -90,7 +90,5 @@ class DrawingView(context: Context, attrs: AttributeSet): View(context, attrs) {
         mDrawPaint?.strokeWidth = mBrushSize
     }
 
-    internal inner class CustomPath(var color: Int, var brushThickness: Float): Path() {
-
-    }
+    internal inner class CustomPath(var color: Int, var brushThickness: Float): Path()
 }
